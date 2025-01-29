@@ -1,1 +1,60 @@
+/* Default Theme */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.3s ease;
+}
 
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#anime-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.anime-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.anime-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Dark Theme */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+/* Colorful Theme */
+.colorful-mode {
+    background: linear-gradient(45deg, #ff6b6b, #6b6bff);
+    color: white;
+}
+
+.colorful-mode header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
